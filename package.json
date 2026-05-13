@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-dailymed",
+  "version": "0.1.0",
+  "description": "DailyMed MCP — FDA Structured Product Labels via NLM",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "dailymed"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-dailymed"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

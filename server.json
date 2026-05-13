@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/dailymed",
+  "title": "Dailymed",
+  "description": "DailyMed MCP — FDA Structured Product Labels via NLM",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/dailymed",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-dailymed",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/dailymed/mcp"
+    }
+  ]
+}
