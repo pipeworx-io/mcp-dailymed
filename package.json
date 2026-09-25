@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-dailymed",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DailyMed MCP — FDA Structured Product Labels via NLM",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-f192d64c43605e31917d5fa2d6c7d7121a489d8a4b816c9b751814d99138707e",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-f8d89352e11a99d685c5580b8d25a5736db13e4a55524a3b96627a82dc28f7e0",
+    "sourceCommit": "5b29c2b0c11e1fcd954969a245b474e6e9475116"
   }
 }
