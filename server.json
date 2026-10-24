@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/dailymed",
   "title": "Dailymed",
   "description": "DailyMed MCP — FDA Structured Product Labels via NLM",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "websiteUrl": "https://pipeworx.io/packs/dailymed",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-dailymed",
