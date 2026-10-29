@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-dailymed",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "DailyMed MCP — FDA Structured Product Labels via NLM",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-dailymed": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "dailymed"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-dailymed.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/dailymed",
   "pipeworx": {
-    "sourceHash": "v1-f0acbf0f57b4c4d1f5d04665fe642f6a9265e3ef1ef433a11d0c047e63b81dad",
-    "sourceCommit": "01241619b78233fd55d0e3612331499a63f03ae7"
+    "mode": "gateway",
+    "slug": "dailymed",
+    "gatewaySlug": "dailymed",
+    "sourceHash": "v1-6a4de750e11309271422ac86d73c5dc950471c0d38456977a5c11f8ee45598b7",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
